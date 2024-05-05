@@ -16,6 +16,9 @@
   * Unlicensed
 * [Организация проектов](ProjectOrganisation/Readme.md)
   * Физическая организация
+    * CMake
+    * Qt
+    * MSVS
   * Версионирование
 * Без категории
 
