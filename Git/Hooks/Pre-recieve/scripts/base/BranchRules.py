@@ -11,11 +11,11 @@ class LineRule:
 
     def __str__(self) -> str:
         out = str()
-        out += 'Rule: \n'
+        out += 'Rule:'
         if self.__MaxLength:
-            out += 'MaxLength: ' + self.__MaxLength + '\n'
+            out += '\nMaxLength: ' + self.__MaxLength
         if self.__Regex:
-            out += 'Regex: ' + self.__Regex + '\n'
+            out += '\nRegex: ' + self.__Regex
         return out
 
     def setMaxLength(self, length : int) -> None:
@@ -24,20 +24,20 @@ class LineRule:
 
     def setRegex(self, regex : str) -> None:
         self.__MaxLength = None
-        self.__Regex = regex
+        self.__Regex = regex[:-1]
 
     @property
     def MaxLength(self) -> int:
         return self.__MaxLength
-    
+
     @MaxLength.setter
     def MaxLength(self, value : int):
         self.setMaxLength(value)
-    
+
     @property
     def Regex(self) -> str:
         return self.__Regex
-    
+
     @Regex.setter
     def Regex(self, value : str):
         self.setRegex(value)
@@ -96,7 +96,7 @@ class BranchRules:
 
         self.__MessageRules.Header = BranchRules.__ReadLineRule(headerLine)
         self.__MessageRules.Body.MaxLength = 72
-        
+
         commitStyles.close()
 
     def __ReadLineRule(line : str) -> LineRule:
@@ -110,31 +110,34 @@ class BranchRules:
     @property
     def IsBranchProtected(self) -> bool:
         return self.__isProtected
-    
+
     @property
     def BranchName(self) -> str:
         return self.__Name
-    
+
     def IsHaveAccess(self, user : str) -> bool:
         return user in self.__AllowedUsers
-    
+
     def VerifyMessage(self, message : str) -> bool:
         newLinePos = message.find('\n')
         headerMessage = str()
+        bodyMessage = str()
 
-        if newLinePos:
+        if newLinePos > 0:
             headerMessage = message[:newLinePos]
+            bodyMessage = message[newLinePos + 2:]
+        else:
+            headerMessage = message
 
         if not headerMessage:
             return False
+
         isHeaderValid = self.__MessageRules.Header.Valid(headerMessage)
-        print('is Header:', isHeaderValid)
-        
-        bodyMessage = message[message.find('\n') + 2:]
+
         isBodyValid = True
         if bodyMessage:
             isBodyValid = self.__MessageRules.Body.Valid(bodyMessage)
-        
+
         return isHeaderValid and isBodyValid
-    
-        
+
+

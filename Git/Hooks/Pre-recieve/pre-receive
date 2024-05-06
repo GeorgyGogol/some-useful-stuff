@@ -9,6 +9,3 @@ COMMIT_AUTHOR=$(git log -1 $COMMIT_HASH --pretty=%ce)
 COMMIT_MSG=$(git log -1 $COMMIT_HASH --pretty=%B)
 
 python hooks/scripts/pre-receive.py ${COMMIT_BRANCH} ${COMMIT_HASH} ${COMMIT_AUTHOR} ${COMMIT_MSG}
-
-# comment this to work
-exit 1000
