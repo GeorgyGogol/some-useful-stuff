@@ -5,19 +5,29 @@
 * [Git aka Пше](Git/Readme.md)
 * [Languages](Languages/Readme.md)
   * Doxygen
-  * Markdown
+  * [Markdown](Languages/Markdown.md)
   * Regex
+  * [CMake](Languages/CMake.md)
 * [Licenses](Licenses/Readme.md)
   * Разрешительные
-    * WTFL
-    * MIT
+    * [WTFL](Licenses/WTFPL.md)
+    * [MIT](Licenses/MIT.md)
   * С предложением задонатить
-    * Beerware
-  * Unlicensed
+    * [Beerware](Licenses/Beerware.md)
+  * [Unlicensed](Licenses/Unlicensed.md)
 * [Организация проектов](ProjectOrganisation/Readme.md)
-  * Физическая организация
+  * [Физическая организация](ProjectOrganisation/PhysProjOrg/Readme.md)
+    * [CMake](ProjectOrganisation/PhysProjOrg/CMake.md)
+    * Qt
+    * MSVS
   * Версионирование
-* Без категории
+* [Без категории](Uncategorized/Readme.md)
 
-Бардак был разделен на директории для категоризации. Это должно упростить поиск и ориентацию по собранной информации. По ссылкам доступно то, что оформлено. Темы, которые не дооформлены либо без ссылки, либо вовсе отсутствуют.
+Бардак был разделен на директории для категоризации. Это должно упростить поиск и ориентацию по
+собранной информации. По ссылкам доступно то, что оформлено. Темы, которые не дооформлены либо без
+ссылки, либо вовсе отсутствуют.
+
+* [Главная](README.md)
+* [К следующему выпуску](Todo.md)
+* [История изменений](Changelog.md)
 
