@@ -2,9 +2,9 @@
 
 Раздел, посвященный организации проектов
 
-* [Физическая организация проектов](Physical%20Project%20Organisation.md)
-	* MSVS
-	* Qt
-	* CMake
+* [Физическая организация проектов](PhysProjOrg/Readme.md)
+  * [MSVS](PhysProjOrg/MSVS.md)
+  * [Qt](PhysProjOrg/Qt.md)
+  * [CMake](PhysProjOrg/CMake.md)
 * [Версионирование ПО](Versions.md)
 
