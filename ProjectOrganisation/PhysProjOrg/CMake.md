@@ -28,6 +28,7 @@ projectDir
 |---out || build
 |---modules
 |   |---Module1
+|
 |---resources
 |---doc
 ```
@@ -45,15 +46,18 @@ projectDir
 |   |---sources
 |   |---tests
 |   |---resources
+|
 |---Project2
 |   |---CMakeLists.txt
 |   |---include/Project2
 |   |---sources
 |   |---tests
 |   |---resources
+|
 |---modules
     |---Module1
     |   |---...
+    |
     |---Module2
         |---CMakeLists.txt
         |---include/Module2
