@@ -8,7 +8,7 @@
   * [Json](Languages/Json.md)
   * [Markdown](Languages/Markdown.md)
   * [Regex](Languages/Regex.md)
-  * [CMake](Languages/CMake.md)
+  * [CMake](Languages/Cmake/Readme.md)
 * [Licenses](Licenses/Readme.md)
   * Разрешительные
     * [WTFL](Licenses/WTFPL.md)
