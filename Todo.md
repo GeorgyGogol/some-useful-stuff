@@ -27,7 +27,7 @@
 
 - [ ] Добавить инфу по regex
 - [ ] MIT: расширить и дополнить
-- [ ] Начать раздел по Factorio
+- [x] Начать раздел по Factorio
 - [ ] Git: .gitkeep
 - [ ] Git: submodule
 - [ ] Добавить материал по Doxygen
