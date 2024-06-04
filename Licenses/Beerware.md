@@ -1,3 +1,5 @@
+* [Назад](Readme.md)
+
 # Beerware
 
 Вариант [Donationware](Readme.md#Donationware)

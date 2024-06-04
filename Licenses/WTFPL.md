@@ -1,3 +1,5 @@
+* [Назад](Readme.md)
+
 # Do What The Fuck You Want To Public License
 
 Самая разрешительная лицензия из всех. Не накладывает вообще никаких ограничений.
