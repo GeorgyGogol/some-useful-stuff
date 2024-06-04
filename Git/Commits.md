@@ -65,4 +65,3 @@ git stash pop
 ```
 git stash drop
 ```
-
