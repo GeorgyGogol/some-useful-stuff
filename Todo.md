@@ -80,6 +80,7 @@
 - [ ] git revert -n
 - [ ] git checkout
 - [ ] git switch
+- [ ] УП: больше пояснений
 
 # Унаследованный бэклог
 
