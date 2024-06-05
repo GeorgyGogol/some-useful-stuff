@@ -5,7 +5,9 @@
 Сервер подразумевается хранилище репозиториев и представляет из себя (мою шизу) спец.
 ПО
 
-Получение выполняется командой:
+Получение выполняется командами:
+
+### Полное получение
 
 ```
 git clone <Server:><Path><.git>
@@ -16,6 +18,23 @@ git clone <Server:><Path><.git>
    * file:// для локального репозитория
 2. Path - Путь
 3. .git - Опционально
+
+### Частичное получения
+
+```
+git clone <repo> --single-branch
+git clone -b <branchName> --depth <nCommits> <repo>
+```
+
+1. --single-branch получает текущую HEAD ветку репозитория repo
+2. Флаг -b или --branch определяет название получаемой ветки - branchName
+3. --detpth ограничивает количество получаемых коммитов числом nCommits ветки branchName
+
+Предположительно, для получения дополнительных веток нужно выполнить:
+
+```
+git remote add -t $BRANCH -f origin $REMOTE_REPO
+```
 
 ## Fork
 
@@ -39,7 +58,12 @@ git clone <Server:><Path><.git>
 
 # Сервисы для публикаций
 
-* GitHub - Самый Open-source открытого ПО
-* GitLab - Российский аналог
+* GitHub - Самый Open-source открытого ПО, принадлежит MS
+* GitLab - Российский аналог международного уровня
 * [GitVerse](https://gitverse.ru) - Аналог от Сбера, размещающийся на платформе и условиях СберТеха. Появилось в 2024 году
+* [GitFlic](https://gitflic.ru/public/project) - Вроде как [первый российский][ref1] гит-хостинг
+* [Gitea](https://docs.gitea.com) - Альтернатива GitLab, отличается легковесностью, форк Gogs
+* [Gogs](https://gogs.io) - (резко) Коммерческий китайский хостинг, написан на Go
+* [Codeberg](https://codeberg.org) - Community fork от Gitea
 
+[ref1]: https://trends.rbc.ru/trends/industry/622b8b4f9a7947053add4807#:~:text=%D0%BF%D0%BE%D0%B4%D0%B1%D0%BE%D1%80%D0%BA%D0%B0%20%D0%A0%D0%91%D0%9A%20Pro-,GitFlic,-%D0%AD%D1%82%D0%BE%20%D0%BF%D0%B5%D1%80%D0%B2%D1%8B%D0%B9%20%D1%80%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9
