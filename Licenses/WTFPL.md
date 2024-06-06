@@ -1,4 +1,4 @@
-* [Назад](Readme.md)
+* [Назад](./Readme.md)
 
 # Do What The Fuck You Want To Public License
 

@@ -1,4 +1,4 @@
-* [Назад](Readme.md)
+* [Назад](./Readme.md)
 
 # Beerware
 

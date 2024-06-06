@@ -1,5 +1,5 @@
 * [Вверх](../Readme.md)
-* [Содержание](../TableOfContent.md)
+* [Содержание](../../TableOfContent.md)
 
 - [Хуки](#хуки)
 - [Client side hooks](#client-side-hooks)
