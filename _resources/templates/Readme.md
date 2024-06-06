@@ -1,6 +1,9 @@
 * [Вверх](../Readme.md)
 * [Содержание](../TableOfContent.md)
 
+Или просто 
+* [Вверх](../TableOfContent.md)
+
 # Dir_name
 
 Описание
