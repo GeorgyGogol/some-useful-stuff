@@ -13,7 +13,10 @@
 Будто бы посвящен git (по задачам), но ожидается крупные изменения по CMake. Менее важный и экстренный. Предположительно в августе 2024, но вообще как пойдет
 
 - [ ] Расширение инфы о CMake
-- [ ] CMake: include, fetchContent, find_package
+- [ ] CMake: 
+  - [ ] include
+  - [ ] fetchContent
+  - [ ] find_package
 - [ ] Добавить инфу по regex
 - [ ] MIT: расширить и дополнить
 - [ ] Git: .gitkeep
