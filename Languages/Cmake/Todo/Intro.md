@@ -1,3 +1,7 @@
+* [Назад](./Readme.md)
+
+- [New project Base](#new-project-base)
+
 # New project Base
 
 [Официальный туториал](https://cmake.org/cmake/help/latest/guide/tutorial/index.html)
