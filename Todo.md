@@ -16,7 +16,7 @@
 - [ ] CMake: include, fetchContent, find_package
 - [ ] Добавить инфу по regex
 - [ ] MIT: расширить и дополнить
-- [ ] Git: .gitkeep
+- [x] Git: .gitkeep
 - [ ] Git: submodule
 - [ ] Git: Branch - переписать на понятное
 - [ ] ProjectOrganisation: Workflow - что такое в целом
