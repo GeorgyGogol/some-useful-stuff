@@ -18,7 +18,7 @@
 - [ ] MIT: расширить и дополнить
 - [ ] Git: .gitkeep
 - [ ] Git: submodule
-- [ ] Git: Branch - переписать на понятное
+- [x] Git: Branch - переписать на понятное
 - [ ] ProjectOrganisation: Workflow - что такое в целом
 - [ ] Добавить материал по Doxygen
 - [ ] Раздел про алгоритмы
