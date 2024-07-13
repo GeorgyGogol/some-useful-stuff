@@ -1,6 +1,15 @@
+* [Назад](../Readme.md)
+
+- [Additional Spells](#additional-spells)
+- [message](#message)
+
+# Additional Spells
+
+В этой части будут дополнительные приблуды, которые не прям обязательны для использования
+
 # message
 
-Выводит сообщение в консоли сборки
+Выводит сообщение в **консоли сборки**
 
 ```cmake
 message(<tag> "< text >")
