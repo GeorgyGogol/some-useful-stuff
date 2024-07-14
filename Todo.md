@@ -17,7 +17,7 @@
 - [x] Добавить инфу по regex
 - [x] MIT: расширить и дополнить
 - [x] Git: .gitkeep
-- [ ] Git: submodule
+- [x] Git: submodule
 - [x] Git: Branch - переписать на понятное
 - [ ] ProjectOrganisation: Workflow - что такое в целом
 - [ ] Добавить материал по Doxygen
