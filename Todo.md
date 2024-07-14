@@ -16,7 +16,7 @@
 - [ ] CMake: include, fetchContent, find_package
 - [ ] Добавить инфу по regex
 - [ ] MIT: расширить и дополнить
-- [ ] Git: .gitkeep
+- [x] Git: .gitkeep
 - [ ] Git: submodule
 - [x] Git: Branch - переписать на понятное
 - [ ] ProjectOrganisation: Workflow - что такое в целом
@@ -59,7 +59,7 @@
 - [ ] git checkout
 - [ ] git switch
 - [x] УП: больше пояснений
-- [ ] Json: более подробно про типы
+- [x] Json: более подробно про типы
 - [ ] Сделать свой комикс Наглядное выполнение хуков
 - [ ] Расширить раздел по хукам гит
 - [ ] Github workflow
