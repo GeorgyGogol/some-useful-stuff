@@ -36,6 +36,21 @@ git clone -b <branchName> --depth <nCommits> <repo>
 git remote add -t $BRANCH -f origin $REMOTE_REPO
 ```
 
+## Работа с внешними ссылками
+
+```
+git remote -v
+git remote set-url origin --push <path>
+git remote add <name> <path>
+git remote remove <name>
+```
+
+1. Просмотр всех внешних связей
+2. Переопределить связь, уточнить, куда делать пуш
+3. Добавляет ссылку на внешнее
+4. Удаляет ссылку
+
+
 ## Fork
 
 От англ. "Вилка" - копия репозитория
