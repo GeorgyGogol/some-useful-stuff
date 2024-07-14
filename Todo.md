@@ -15,7 +15,7 @@
 - [ ] Расширение инфы о CMake
 - [ ] CMake: include, fetchContent, find_package
 - [x] Добавить инфу по regex
-- [ ] MIT: расширить и дополнить
+- [x] MIT: расширить и дополнить
 - [x] Git: .gitkeep
 - [ ] Git: submodule
 - [x] Git: Branch - переписать на понятное
