@@ -92,6 +92,7 @@ git remote remove <name>
 * [Gitea](https://docs.gitea.com) - Альтернатива GitLab, отличается легковесностью, форк Gogs
 * [Gogs](https://gogs.io) - (резко) Коммерческий китайский хостинг, написан на Go
 * [Codeberg](https://codeberg.org) - Community fork от Gitea
+* TFS - Team Foundation Server (MS), охватывающий весь жизненный цикл приложения
 
 [ref1]: https://trends.rbc.ru/trends/industry/622b8b4f9a7947053add4807#:~:text=%D0%BF%D0%BE%D0%B4%D0%B1%D0%BE%D1%80%D0%BA%D0%B0%20%D0%A0%D0%91%D0%9A%20Pro-,GitFlic,-%D0%AD%D1%82%D0%BE%20%D0%BF%D0%B5%D1%80%D0%B2%D1%8B%D0%B9%20%D1%80%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9
 
