@@ -4,7 +4,7 @@
 
 * [Git aka Пше](Git/Readme.md)
 * [Languages](Languages/Readme.md)
-  * Doxygen
+  * [Doxygen](Languages/Doxygen.md)
   * [Json](Languages/Json.md)
   * [Markdown](Languages/Markdown.md)
   * [Regex](Languages/Regex.md)
@@ -19,8 +19,8 @@
 * [Организация проектов](ProjectOrganisation/Readme.md)
   * [Физическая организация](ProjectOrganisation/PhysProjOrg/Readme.md)
     * [CMake](ProjectOrganisation/PhysProjOrg/CMake.md)
-    * Qt
-    * MSVS
+    * [Qt](ProjectOrganisation/PhysProjOrg/Qt.md)
+    * [MSVS](ProjectOrganisation/PhysProjOrg/MSVS.md)
     * [Организационные файлы](ProjectOrganisation/PhysProjOrg/SomeProjFiles.md)
   * [Версионирование](ProjectOrganisation/Versions.md)
   * [Управление проектом](ProjectOrganisation/ProjectsWorkflow.md)
