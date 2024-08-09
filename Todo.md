@@ -14,7 +14,7 @@
 
 - [ ] Расширение инфы о CMake
 - [ ] CMake: include, fetchContent, find_package
-- [ ] ProjectOrganisation: Workflow - что такое в целом
+- [x] ProjectOrganisation: Workflow - что такое в целом
 - [ ] Добавить материал по Doxygen
 - [ ] Раздел про алгоритмы
   - [x] Начать раздел
@@ -79,6 +79,8 @@
 - [ ] Git: генерация ssh-ключей
 - [ ] Cpp: IDE и компиляторы
 - [ ] УП: что должно быть в баг репорте
+- [ ] Git: нейминг бранчей
+- [ ] Git: remote: servers для публикаций в отдельную статью?
 
 # Factorio
 
