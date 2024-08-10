@@ -38,7 +38,7 @@
     - [ ] Cpp: MFC
   - [ ] Python - набросок
 - [ ] УБ: Организация Worflow проекта
-- [ ] CMake: Ревью Intro
+- [x] CMake: Ревью Intro
 
 # release next-next
 
@@ -89,7 +89,7 @@
 - [ ] Cpp: IDE и компиляторы
 - [ ] CMake: Ревью текста в Readme
 - [ ] CMake: Ревью текста в Modules
-- [ ] CMake: Ревью текста в Files
+- [x] CMake: Ревью текста в Files
 - [ ] CMake: Работа через консоль
 - [ ] CMake: Установка и особенности работы
 - [ ] CMake: Синтаксис: Условный оператор
