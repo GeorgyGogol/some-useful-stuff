@@ -93,9 +93,9 @@
 - [ ] CMake: Работа через консоль
 - [ ] CMake: Установка и особенности работы
 - [ ] CMake: Синтаксис: Условный оператор
-- [ ] CMake: Variables: починить refTopLevel
+- [x] CMake: Variables: починить refTopLevel
 - [ ] CMake: Примеры CMakeLists.txt на некоторые жизненные случаи
-- [ ] CMake Qt: Уточнить CmakeQt.md
+- [x] CMake Qt: Уточнить CmakeQt.md
 
 # Factorio
 

@@ -72,7 +72,8 @@ cmake -DCMAKE_PREFIX_PATH=path
 
 # Соус
 
-https://cmake.org/cmake/help/latest/manual/cmake-variables.7.html
-https://cmake.org/cmake/help/latest/manual/cmake-language.7.html#cmake-language-variables
+* https://cmake.org/cmake/help/latest/manual/cmake-variables.7.html
+* https://cmake.org/cmake/help/latest/manual/cmake-language.7.html#cmake-language-variables
+
 [refTopLevel]:https://cmake.org/cmake/help/latest/variable/PROJECT_IS_TOP_LEVEL.html
 
