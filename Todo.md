@@ -95,6 +95,9 @@
 - [ ] CMake: Синтаксис: Условный оператор
 - [x] CMake: Variables: починить refTopLevel
 - [ ] CMake: Примеры CMakeLists.txt на некоторые жизненные случаи
+- [ ] Doxygen: Использование @ в файле конфигурации - что такое и зачем
+- [ ] Doxygen: что такое internal
+- [ ] Markdown: расширение mermaid
 
 # Factorio
 
