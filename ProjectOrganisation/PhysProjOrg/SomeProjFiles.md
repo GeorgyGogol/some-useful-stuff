@@ -5,6 +5,7 @@
 - [License](#license)
 - [Todo](#todo)
 - [Changelog](#changelog)
+- [Contributing](#contributing)
 - [Соус](#соус)
 
 # Организационные файлы
