@@ -24,6 +24,7 @@ Offtop: По всей видимости, на скрипты нужно ора�
 * ${CMAKE_PROJECT_NAME} - название проекта, заданное последним верхнеуровневым методом project()
 * ${PROJECT_IS_TOP_LEVEL} - с 3.21, флаг, указывающий является ли текущий проект верхнеуровневым
 * ${CMAKE_SOURCE_DIR} - путь до корня проекта, где была запущена работа CMake
+* ${CMAKE_CURRENT_SOURCE_DIR} - путь до текущей директории, обрабатываемой CMake
 * ${CMAKE_CURRENT_BINARY_DIR} - путь до текущей директории, где работает CMake
 
 # Переменные поведения
@@ -37,8 +38,8 @@ Offtop: По всей видимости, на скрипты нужно ора�
 Группа переменных, характеризующиеся как OUTPUT_DIRECTORY
 
 * ${CMAKE_ARCHIVE_OUTPUT_DIRECTORY} - Файлы-архивы
-* ${CMAKE_LIBRARY_OUTPUT_DIRECTORY} - Промежуточные файлы
-* ${CMAKE_RUNTIME_OUTPUT_DIRECTORY} - Файлы exe и Dll
+* ${CMAKE_LIBRARY_OUTPUT_DIRECTORY} - Файлы библиотек (Dll, lib)
+* ${CMAKE_RUNTIME_OUTPUT_DIRECTORY} - Файлы exe
 
 Благодаря set этой троицы можно контроллировать, куда и что билдится. Так же при запуске модульного проекта не будет ошибок, связанных с потерей библиотек
 

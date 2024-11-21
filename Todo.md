@@ -95,6 +95,26 @@
 - [ ] CMake: include
 - [ ] CMake: fetchContent
 - [ ] CMake: find_package
+- [ ] CMake: target_compile_definitions
+- [ ] CMake: Тонкости включения заголовков
+- [ ] CMake: list TRANSFORM PREPEND
+- [ ] CMake: list APPEND
+- [ ] CMake: дополнить generate_export_header
+- [ ] CMake: изучить источник https://man.archlinux.org/man/extra/cmake/cmake-variables.7.en для переменных
+- [ ] CMake: include_guard
+- [ ] Архитектура приложений (АП) - начать раздел
+- [ ] АП: Стратегия
+- [ ] АП: Декоратор
+- [ ] АП: Адаптер
+- [ ] АП: Мост
+- [ ] АП: Строитель
+- [ ] АП: Делегат
+- [ ] Cpp: main() и как его кушац
+- [ ] Cpp: неизвестное количество переменных в методе по типу foo(int ...values)
+- [ ] Cpp: неизвестное количество типов в методе по типу < template ... TyValues >
+- [ ] Cpp: move-семантика, нюансы использования
+- [ ] Cpp: std::bind, std::function, lambda-method, template functor, class-functor
+- [ ] ОП: стандарт Changelog
 
 # Factorio
 
