@@ -3,6 +3,7 @@
 - [Дополнительные приколдесы](#дополнительные-приколдесы)
   - [enable\_testing()](#enable_testing)
   - [Generating export header](#generating-export-header)
+  - [Package Config Helpers](#package-config-helpers)
 
 # Дополнительные приколдесы
 
@@ -28,4 +29,10 @@ target_include_directories(Project PUBLIC ${CMAKE_CURRENT_BINARY_DIR})
 
 Эта часть абстрактного скрипта проекта Project создает заголовочный файл Project_export.h (в
 директории с кэшем) и включает директорию с генерированным файлом в проект с публичным уровнем доступа, который позволит увидеть оный внешним проектам
+
+## Package Config Helpers
+
+**CMakePackageConfigHelpers**
+
+Пакет, облегчяющий жизнь создателям модулей. По шаблону, задаваемому тобой, генерирует красивый файл для настройки модуля.
 
