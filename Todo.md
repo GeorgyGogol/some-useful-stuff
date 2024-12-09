@@ -66,7 +66,7 @@
 - [ ] Лицензия Apache
 - [ ] Лицензия Mozilla
 - [ ] Лицензия BSD/FreeBSD
-- [ ] Cmake: install
+- [x] Cmake: install
 - [ ] Ninja
 - [ ] Android SDK, NDK, Настройка
 - [ ] Лицензия Creative Commons
@@ -101,8 +101,8 @@
 - [ ] CMake: find_package
 - [ ] CMake: target_compile_definitions
 - [ ] CMake: Тонкости включения заголовков
-- [ ] CMake: list TRANSFORM PREPEND
-- [ ] CMake: list APPEND
+- [x] CMake: list TRANSFORM PREPEND
+- [x] CMake: list APPEND
 - [ ] CMake: дополнить generate_export_header
 - [ ] CMake: изучить источник https://man.archlinux.org/man/extra/cmake/cmake-variables.7.en для переменных
 - [ ] CMake: include_guard
@@ -151,6 +151,8 @@
 - [ ] Сокеты Беркли (https://code-live.ru/post/cpp-http-server-over-sockets/)
 - [ ] Сокеты Беркли (https://habr.com/ru/articles/503432/)
 - [ ] Git: merge: Стратегии
+- [ ] Лицензии: копирайт, копилефт, коммерческая - что такое и в чем различие
+- [ ] ЯП: SQL
 
 # Factorio
 
