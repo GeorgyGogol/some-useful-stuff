@@ -115,6 +115,38 @@
 - [ ] Cpp: move-семантика, нюансы использования
 - [ ] Cpp: std::bind, std::function, lambda-method, template functor, class-functor
 - [ ] ОП: стандарт Changelog
+- [ ] Cmake: install правила установки пакета (https://cmake.org/cmake/help/latest/command/install.html)
+- [ ] Cmake: конфигурирование шаблонного файла
+- [ ] Cmake: импорт и экспорт таргетов https://gitlab.kitware.com/cmake/community/-/wikis/doc/tutorials/Exporting-and-Importing-Targets
+- [ ] Cmake: Кросс-компилирование (https://blog.feabhas.com/2021/07/cmake-part-2-release-and-debug-builds/#Postscript_–_A_Simple_Build_Script)
+- [ ] Cmake: Кросс-компилирование (https://cmake.org/cmake/help/book/mastering-cmake/chapter/Cross%20Compiling%20With%20CMake.html)
+- [ ] Cmake: Написание строчек с CMAKE_RUNTIME_OUTPUT_DIRECTORY, CMAKE_<ARTIFACT>_OUTPUT_DIRECTORY_<CONFIGURATION> и им подобных
+- [ ] Cmake: Переменные из https://gitlab.kitware.com/cmake/community/-/wikis/doc/cmake/Useful-Variables
+- [ ] Cmake: Определение платформы сборки https://stackoverflow.com/questions/11944060/how-to-detect-target-architecture-using-cmake
+- [ ] Bash: Начать раздел
+- [ ] Bash: Перенести флаги для условного опреатора https://habr.com/ru/companies/ruvds/articles/325522/
+- [ ] Bash: Краткое эссе из https://habr.com/ru/companies/ruvds/articles/325522/
+- [ ] Bash: Подумать над https://habr.com/ru/companies/avito/articles/868754/
+- [ ] Bash: https://habr.com/ru/articles/471242/
+- [ ] Bash: Опции
+- [ ] Bash: Аргументы
+- [ ] Bash: Примеры для копипасты
+- [ ] Раздел про системы сборок:
+  - [ ] Bazel
+  - [ ] Conan
+  - [ ] Make
+  - [ ] Wip
+  - [ ] Тот, на котором собирается Годот
+  - [ ] Разобрать https://github.com/catchorg/Catch2/blob/devel/BUILD.bazel
+- [ ] АП: (?) Демон
+- [ ] Разобрать https://github.com/baderouaich/daemonpp?ysclid=m3hmuy0tt7750913193
+- [ ] Изучить на предмет полезности https://github.com/LLlKuIIeP/Cplusplus/blob/master/Основы%20программирования%20для%20Linux/README.md?ysclid=m4a9kccacl18885300
+- [ ] Модель OSI (передача данных)
+- [ ] Транспортные протоколы передачи информации (посмотреть https://selectel.ru/blog/network-protocols/)
+- [ ] Транспортные протоколы передачи информации (https://habr.com/ru/companies/timeweb/articles/830306/)
+- [ ] Сокеты Беркли (https://code-live.ru/post/cpp-http-server-over-sockets/)
+- [ ] Сокеты Беркли (https://habr.com/ru/articles/503432/)
+- [ ] 
 
 # Factorio
 
