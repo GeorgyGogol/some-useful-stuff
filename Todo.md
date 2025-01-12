@@ -15,9 +15,9 @@
 Глубокая переработка структуры информации про git
 
 - [ ] Yaml: Язык Ямал
-- [ ] Git: remote отдельный раздел, т.к. очень большая команда
-- [ ] Git: разобрать LocalRepo.md
-- [ ] УБ: Git: push
+- [x] Git: remote отдельный раздел, т.к. очень большая команда
+- [x] Git: разобрать LocalRepo.md
+- [x] УБ: Git: push
 - [ ] Раздел про Языки программирования (ЯП)
   - [ ] Начать раздел
   - [ ] Cpp - набросок
@@ -75,11 +75,11 @@
 - [ ] Cpp: Норм расписать
 - [ ] Python: Норм расписать
 - [ ] Бьюти: пройтись SourceFileStandarter - убрать пробелы в конце строк
-- [ ] Git: генерация ssh-ключей
+- [x] Git: генерация ssh-ключей
 - [ ] Cpp: IDE и компиляторы
 - [ ] УП: что должно быть в баг репорте
 - [ ] Git: нейминг бранчей
-- [ ] Git: remote: servers для публикаций в отдельную статью?
+- [x] Git: remote: servers для публикаций в отдельную статью?
 - [ ] Doxygen: описание файла генерации
 - [ ] Doxygen: описание команд консоли и генерация
 - [ ] Doxygen: более читабельный раздел по синтаксису
@@ -120,7 +120,7 @@
 - [ ] Cmake: импорт и экспорт таргетов https://gitlab.kitware.com/cmake/community/-/wikis/doc/tutorials/Exporting-and-Importing-Targets
 - [ ] Cmake: Кросс-компилирование (https://blog.feabhas.com/2021/07/cmake-part-2-release-and-debug-builds/#Postscript_–_A_Simple_Build_Script)
 - [ ] Cmake: Кросс-компилирование (https://cmake.org/cmake/help/book/mastering-cmake/chapter/Cross%20Compiling%20With%20CMake.html)
-- [ ] Cmake: Написание строчек с CMAKE_RUNTIME_OUTPUT_DIRECTORY, CMAKE_<ARTIFACT>_OUTPUT_DIRECTORY_<CONFIGURATION> и им подобных
+- [ ] Cmake: Написание строчек с CMAKE_RUNTIME_OUTPUT_DIRECTORY, CMAKE_< ARTIFACT > _ OUTPUT_DIRECTORY_< CONFIGURATION > и им подобных
 - [ ] Cmake: Переменные из https://gitlab.kitware.com/cmake/community/-/wikis/doc/cmake/Useful-Variables
 - [ ] Cmake: Определение платформы сборки https://stackoverflow.com/questions/11944060/how-to-detect-target-architecture-using-cmake
 - [ ] Bash: Начать раздел
@@ -146,7 +146,7 @@
 - [ ] Транспортные протоколы передачи информации (https://habr.com/ru/companies/timeweb/articles/830306/)
 - [ ] Сокеты Беркли (https://code-live.ru/post/cpp-http-server-over-sockets/)
 - [ ] Сокеты Беркли (https://habr.com/ru/articles/503432/)
-- [ ] 
+- [ ] Git: merge: Стратегии
 
 # Factorio
 
