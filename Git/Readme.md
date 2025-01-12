@@ -7,9 +7,11 @@ Subversion aka Система Контроля Версий. Одна из са�
 * Команды Git
 * [Хуки](Hooks/Readme.md)
 * [Удаленный репозиторий](RemoteRepo.md)
-* [Локальный репозиторий](LocalRepo.md)
-  * [Git clean / очистка](LocalRepo.md#очистка-рабочей-копии)
+* [Локальный репозиторий](Local/Readme.md)
+  * [Коммиты](Local/Commits.md)
+    * [Стэш](Local/Commits.md#stash)
+  * [Git clean / очистка](Local/GitClean.md)
+  * [Работа с удаленными репозиториями](Local/Remote.md)
+  * [Подмодули](Local/Submod.md)
 * [Ветки](Branches.md)
-* [Коммиты](Commits.md)
-  * [Стэш](Commits.md#stash)
 
