@@ -1,0 +1,12 @@
+#!/usr/bin/env sh
+COMMIT_MSG_FILE=$1
+
+raw_branch=$( git symbolic-ref --short HEAD )
+branch_end=$( echo "$raw_branch" | rev | cut -d '/' -f 1 | rev )
+
+first_line=$( head -n 1 "${COMMIT_MSG_FILE}" )
+
+if [ -z "$first_line" ]
+then
+    sed -i "" "1s/^/${branch_end}:\n/" "$COMMIT_MSG_FILE"
+fi
