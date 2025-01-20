@@ -6,6 +6,7 @@
   - [list](#list)
   - [message](#message)
   - [option()](#option)
+  - [target\_compile\_definitions](#target_compile_definitions)
 
 # Additional Spells
 
@@ -97,5 +98,7 @@ cmake -D DProjectName_LIB=ON
 
 Как видно, синтаксис примерно такой: "-D< optionName >=ON/OFF"
 
+## target_compile_definitions
 
+Добавление дополнительных определений компилятору.
 

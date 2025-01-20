@@ -96,10 +96,10 @@
 - [ ] Doxygen: Использование @ в файле конфигурации - что такое и зачем
 - [ ] Doxygen: что такое internal
 - [ ] Markdown: расширение mermaid
-- [ ] CMake: include
+- [x] CMake: include
 - [ ] CMake: fetchContent
 - [ ] CMake: find_package
-- [ ] CMake: target_compile_definitions
+- [x] CMake: target_compile_definitions
 - [ ] CMake: Тонкости включения заголовков
 - [x] CMake: list TRANSFORM PREPEND
 - [x] CMake: list APPEND
