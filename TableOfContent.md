@@ -10,6 +10,7 @@
   * [Markdown](Languages/Markdown.md)
   * [Regex](Languages/Regex.md)
   * [CMake](Languages/Cmake/Readme.md)
+  * [Shell Bash](Languages/Bash/Readme.md)
 * [Licenses](Licenses/Readme.md)
   * Разрешительные
     * [WTFL](Licenses/WTFPL.md)
