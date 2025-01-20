@@ -146,6 +146,7 @@
 - [ ] Транспортные протоколы передачи информации (https://habr.com/ru/companies/timeweb/articles/830306/)
 - [ ] Сокеты Беркли (https://code-live.ru/post/cpp-http-server-over-sockets/)
 - [ ] Сокеты Беркли (https://habr.com/ru/articles/503432/)
+- [ ] Git: SSH: Нужно найти и записать, что происходит при добавлении нового сервера
 - [ ] 
 
 # Factorio
