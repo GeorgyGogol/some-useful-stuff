@@ -19,17 +19,40 @@
 ```sh
 mkdir build
 cd build
+# Or
+# mkdir build && cd $_
 cmake ..
 ```
 
-Таким образом, мы сформируем кэш для дельнейшего билда
+Таким образом, мы сформируем кэш для дельнейшего билда. Но это простой способ. Есть более продвинутый и тонкий, позволяющий настроить будущий проект так, как мы хотим.
+
+```sh
+cmake -G "Generator Name" -A Arch -S "SourceDir" -B "BuildDir" -DCMAKE_BUILD_TYPE=Type -DCMAKE_INSTALL_PREFIX="InstPath" -D<OptionDir>=ON
+```
+
+* Generator Name - Название генератора проекта
+* Arch - Архитектура, платформа для которой собираем: Win32, x64
+* SourceDir - Путь к исходникам проекта
+* BuildDir - Директория размещения кэша и сборки
+* DCMAKE_BUILD_TYPE - Тип сборки: Release, Debug
+* DCMAKE_INSTALL_PREFIX - Путь, по которому будет выполнена установка проекта
+
+Что значат эти буквы?
+
+* G - Generator
+* A - Arch
+* S - Source
+* B - Build
+* D - Additional options
 
 ## Сборка
 
 Тут все более однозначно. В директории, в которой находится кэш, говорим:
 
 ```sh
+cmake --build .
 cmake --build . --parallel
+cmake --build . --config Config --install_prefix "prefix"
 ```
 
 Это запустит сборку. Флаг parallel разрешает использовать более одного потока и выполнять сборку параллельно
