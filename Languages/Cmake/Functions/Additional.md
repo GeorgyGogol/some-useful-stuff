@@ -1,16 +1,68 @@
 * [Назад](../Readme.md)
 
 - [Additional Spells](#additional-spells)
-  - [file](#file)
-  - [foreach](#foreach)
-  - [list](#list)
-  - [message](#message)
-  - [option()](#option)
-  - [target\_compile\_definitions](#target_compile_definitions)
+	- [configure\_file](#configure_file)
+	- [file](#file)
+	- [foreach](#foreach)
+	- [list](#list)
+	- [message](#message)
+	- [option()](#option)
+	- [target\_compile\_definitions](#target_compile_definitions)
 
 # Additional Spells
 
 В этой части будут дополнительные приблуды, которые не прям обязательны для использования
+
+## configure_file
+
+Конфигурирование файла для проекта по заданному шаблону
+
+Синтаксис-копипаста:
+
+```CMake
+configure_file(
+	inputFile.ext.in
+	output_inputFile.ext
+	[COPYONLY]
+)
+```
+
+* inputFile.ext.in - название и относительный путь к файлу-шаблону
+* output_inputFile.ext - название и относительный путь к настроенному файлу
+* ext - разрешение файла, в целом может быть любым
+* COPYONLY - указание на то, что файл нужно скопировать без изменений
+
+А как сделать этот файл шаблона? Как CMake поймет, что и как делать?
+
+Создание файла-шаблона достаточно простое:
+
+```cpp
+#cmakedefine Var_bool
+#cmakedefine Var_String @VAR_STRING@
+```
+
+```cpp
+#define Var_bool
+#define Var_String "String contains"
+// Or
+/* #undef Var_bool */
+```
+
+При этом в проекте творится примерно такое:
+
+```CMake
+option(Var_bool OFF)
+set(Var_String "String contains")
+
+configure_file(
+	TestFile.h.in
+	include/TestFile.h
+)
+```
+
+Таким образом, настройки из CMakeLists перекочевывают в настроенный файл.
+
+Документация: https://cmake.org/cmake/help/latest/command/configure_file.html
 
 ## file
 
