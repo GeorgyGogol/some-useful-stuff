@@ -4,7 +4,13 @@
   - [Синопсис](#синопсис)
   - [Команда Install](#команда-install)
   - [CMakePackageConfigHelpers](#cmakepackageconfighelpers)
-  - [Так как же задать правила установки](#так-как-же-задать-правила-установки)
+  - [Наглядный пример](#наглядный-пример)
+  - [Объяснение магии](#объяснение-магии)
+    - [target\_include\_directory](#target_include_directory)
+    - [is\_proj\_top\_level](#is_proj_top_level)
+  - [Возможные вопросы](#возможные-вопросы)
+    - [Проверка существования](#проверка-существования)
+  - [IMPORTED\_LOCATION error](#imported_location-error)
 - [Соус](#соус)
 
 # Install
@@ -52,6 +58,13 @@ install([TYPE] < WHAT > DESTINATION < WHERE > [...])
 
 Правильно наколдовав install можно добиться интеграции своего модуля в другие модули.
 
+Я придерживаюсь примерно следующей последовательности:
+
+1. install target
+2. install directory (public headers)
+3. configure export cmake
+4. install cmake config file
+
 ## CMakePackageConfigHelpers
 
 Специальный модуль, включаемый в базовую поставку CMake для автогенерации .cmake файлов конфигурации проекта.
@@ -65,7 +78,7 @@ include ( "${CMAKE_CURRENT_LIST_DIR}/MyProjectTargets.cmake" )
 check_required_components(MyProject)
 ```
 
-Генерирует конфигурационный файл, по которому команда find_package() будет находить модуль.
+Генерирует конфигурационный файл, по которому команда find_package() будет находить модуль с названием MyProject.
 
 ## Наглядный пример
 
@@ -88,6 +101,7 @@ target_include_directory(
 
 # Install rules
 # Проверим, является ли проект верхнеуровневым (?)
+string(COMPARE EQUAL ${CMAKE_SOURCE_DIR} ${CMAKE_CURRENT_SOURCE_DIR} is_proj_top_level)
 if(is_proj_top_level)
     # Установка юнитов компиляции
     install(
@@ -152,10 +166,71 @@ check_required_components(SomeLib)
 
 Проверка, является ли проект верхнеуровневым. У меня нет уверенности в необходимости этого.
 
-А что, если нужно будет делать установку клиентского проекта с проектом модуля?..
+Начиная с версии 3.21 введена специальная переменная: PROJECT_IS_TOP_LEVEL, которая говорит является ли проект верхнеуровневым или нет. До версии 3.21 делается следующим образом:
+
+```cmake
+string(COMPARE EQUAL ${CMAKE_SOURCE_DIR} ${CMAKE_CURRENT_SOURCE_DIR} is_proj_top_level)
+```
+
+## Возможные вопросы
+
+Раздел про различные ситуации, потребности и запросы.
+
+### Проверка существования
+
+А что, если в процессе установки, нужно проверить, существует ли файл или нет? И в зависимости от его наличия/отсутствия выполнить его установку/переустановку/ничего не делать
+
+В таком случае пользуемся стандартной инструкцией:
+
+```cmake
+if(NOT EXISTS ${CMAKE_INSTALL_PREFIX}/${FilePath}/${FileName})
+    # <...>
+    install(
+        FILES
+        ${FileName}
+        DESTINATION ${FilePath}
+    )
+else()
+    # Anotger stuff
+    # <...>
+endif()
+```
+
+Где подставить на места свои значения:
+
+* FilePath - Путь до местонахождения файла
+* FileName - Название проверяемого файла
+
+## IMPORTED_LOCATION error
+
+В процессе выполнения команды:
+
+```sh
+cmake --install . --config Debug
+```
+
+CMake выдает ошибку про IMPORTED_LOCATION и configuration:
+
+```txt
+IMPORTED_LOCATION not set for imported target "target" configuration "Debug".
+```
+
+Связано с тем, что в процессе сборки не была использована эта конфигурация.
+
+Решение:
+
+1. Не использовать эту опцию при установке
+2. Конфигурацию задавать на этапе сборки проекта
+
+```sh
+cmake --build . --config Debug
+cmake --install .
+```
 
 # Соус
 
 * https://cmake.org/cmake/help/book/mastering-cmake/chapter/Install.html
 * https://cmake.org/cmake/help/latest/guide/importing-exporting/index.html#creating-a-package-configuration-file
+* https://cmake.org/cmake/help/latest/command/install.html
+* https://stackoverflow.com/questions/74587365/imported-location-not-set-for-imported-target
 

@@ -120,7 +120,7 @@
 - [ ] Cpp: std::bind, std::function, lambda-method, template functor, class-functor
 - [ ] ОП: стандарт Changelog
 - [ ] Cmake: install правила установки пакета (https://cmake.org/cmake/help/latest/command/install.html)
-- [ ] Cmake: конфигурирование шаблонного файла
+- [x] Cmake: конфигурирование шаблонного файла
 - [ ] Cmake: импорт и экспорт таргетов https://gitlab.kitware.com/cmake/community/-/wikis/doc/tutorials/Exporting-and-Importing-Targets
 - [ ] Cmake: Кросс-компилирование (https://blog.feabhas.com/2021/07/cmake-part-2-release-and-debug-builds/#Postscript_–_A_Simple_Build_Script)
 - [ ] Cmake: Кросс-компилирование (https://cmake.org/cmake/help/book/mastering-cmake/chapter/Cross%20Compiling%20With%20CMake.html)
