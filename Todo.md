@@ -103,7 +103,7 @@
 - [ ] CMake: Тонкости включения заголовков
 - [x] CMake: list TRANSFORM PREPEND
 - [x] CMake: list APPEND
-- [ ] CMake: дополнить generate_export_header
+- [x] CMake: дополнить generate_export_header
 - [ ] CMake: изучить источник https://man.archlinux.org/man/extra/cmake/cmake-variables.7.en для переменных
 - [ ] CMake: include_guard
 - [ ] Архитектура приложений (АП) - начать раздел
