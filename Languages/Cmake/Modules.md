@@ -1,12 +1,13 @@
 * [Назад](./Readme.md)
 
 - [Модули](#модули)
-  - [CMAKE\_MODULE\_PATH](#cmake_module_path)
   - [CMAKE\_PREFIX\_PATH](#cmake_prefix_path)
   - [add\_subdirectory](#add_subdirectory)
   - [include](#include)
   - [fetchContent](#fetchcontent)
   - [find\_package](#find_package)
+    - [Настройка проекта модуля](#настройка-проекта-модуля)
+    - [Настройка зависимого от модуля проекта](#настройка-зависимого-от-модуля-проекта)
 
 # Модули
 
