@@ -155,6 +155,7 @@
 - [ ] ЯП: SQL
 - [ ] CMake: install с учетом версии (устанавливаемого пакета)
 - [ ] CMake: 3.21 install presets
+- [ ] CMake: Уточнить команды сборки [тут](Languages/Cmake/ConsoleWorkflow.md#сборка)
 
 # Factorio
 
