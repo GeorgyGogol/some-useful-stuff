@@ -156,6 +156,8 @@
 - [ ] CMake: install с учетом версии (устанавливаемого пакета)
 - [ ] CMake: 3.21 install presets
 - [ ] CMake: Уточнить команды сборки [тут](Languages/Cmake/ConsoleWorkflow.md#сборка)
+- [ ] IDE: VS Code: tasks.json
+- [ ] IDE: VS Code: launch.json
 
 # Factorio
 
