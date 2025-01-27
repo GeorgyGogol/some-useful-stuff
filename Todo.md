@@ -155,6 +155,7 @@
 - [ ] ЯП: SQL
 - [ ] CMake: install с учетом версии (устанавливаемого пакета)
 - [ ] CMake: 3.21 install presets
+- [ ] CMake: Base: target_include_directories - расписать заклинание с интерфейсами
 
 # Factorio
 

@@ -133,7 +133,7 @@ target_sources(Project PRIVATE ${SOURCE_FILES})
 ```CMake
 target_include_directories(
 	CompileUnitName
-	[PUBLIC OR INTERFACE]
+	PUBLIC
 	$<BUILD_INTERFACE:${SOURCES_DIR}/include>
 	$<INSTALL_INTERFACE:$<INSTALL_PREFIX>/ProjectName/include>
 )
