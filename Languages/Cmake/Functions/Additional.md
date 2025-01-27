@@ -152,5 +152,18 @@ cmake -D DProjectName_LIB=ON
 
 ## target_compile_definitions
 
-Добавление дополнительных определений компилятору.
+Добавление дополнительных определений компилятору
+
+Синтаксис-копипаста:
+
+```CMake
+target_compile_definitions(<target> PRIVATE Definition)
+```
+
+* target - Оригинальное название компилируемой единицы, использование алиаса не допускается
+* PRIVATE - Модификатор видимости (может быть INTERFACE|PUBLIC|PRIVATE)
+* Definition - дополнительное определение, можно в кавычках; может иметь значение (через равно)
+
+Нюансы и более полное описание команды можно посмотреть [тут](https://cmake.org/cmake/help/latest/command/target_compile_definitions.html).
+
 
