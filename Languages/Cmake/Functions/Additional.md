@@ -109,12 +109,15 @@ list(APPEND SOME_LIST_2 SOME_VALUE)
 Выводит сообщение в **консоли сборки**.
 
 ```cmake
-message(<tag> "< text >")
-message(<tag> "< some message >: ${SOME_VARIABLE}")
+message("<text>")
+message(<tag> "<text>")
+message(<tag> "<some message>: ${SOME_VARIABLE}")
 ```
 
 * tag - Тип сообщения, вроде как не обязательный, но без него не работает
 * text - Текст сообщения
+
+Бывали случаи, когда первый вариант не работал. **Лучше всего** пользоваться тегами. Так правильно и сообщения выводятся в соответствующем тегу формате.
 
 Тэги:
 

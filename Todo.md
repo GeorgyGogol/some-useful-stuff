@@ -157,6 +157,9 @@
 - [ ] CMake: 3.21 install presets
 - [ ] CMake: Base: target_include_directories - расписать заклинание с интерфейсами
 - [ ] CMake: modules - переписать вводную часть
+- [ ] CMake: Уточнить команды сборки [тут](Languages/Cmake/ConsoleWorkflow.md#сборка)
+- [ ] IDE: VS Code: tasks.json
+- [ ] IDE: VS Code: launch.json
 
 # Factorio
 

@@ -3,6 +3,8 @@
 
 # Cmake
 
+![CMake logo](../../_resources/images/cmake-logo.png)
+
 Раздел, посвященный системе сборки CMake
 
 Официальный сайт: https://cmake.org
@@ -17,7 +19,7 @@
   * [Информационные](Variables.md#информационные-переменные)
   * [Поведения](Variables.md#переменные-поведения)
 * [Работа в консоли](ConsoleWorkflow.md)
-* Как сделать модульную архитектуру
+* [Модульная архитектура](Modules.md)
 * [Физическая организация проекта](../../ProjectOrganisation/PhysProjOrg/CMake.md)
 * Qt
   * [Включение Qt](QtWithCmake/CmakeQt.md)
