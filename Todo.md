@@ -35,7 +35,7 @@
 - [ ] git checkout
 - [ ] git switch
 - [ ] CMake: Примеры CMakeLists.txt на некоторые жизненные случаи
-- [ ] DoDoxygen: файл-пресет с подготовленными настройками для C++ (мой)
+- [ ] Doxygen: файл-пресет с подготовленными настройками для C++ (мой)
 - [ ] Стандартизировать "Организация проекта на Qt"
 - [ ] Стандартизировать "Markdown"
 - [ ] Json: можно ли оставлять запятую в конце?
@@ -66,7 +66,7 @@
 - [ ] Лицензия Apache
 - [ ] Лицензия Mozilla
 - [ ] Лицензия BSD/FreeBSD
-- [ ] Cmake: install
+- [x] Cmake: install
 - [ ] Ninja
 - [ ] Android SDK, NDK, Настройка
 - [ ] Лицензия Creative Commons
@@ -90,20 +90,20 @@
 - [ ] Doxygen: файл для генерации по этому репозиторию
 - [ ] CMake: Ревью текста в Readme
 - [ ] CMake: Ревью текста в Modules
-- [ ] CMake: Работа через консоль
-- [ ] CMake: Установка и особенности работы
+- [x] CMake: Работа через консоль
+- [ ] CMake: Установка программы и особенности работы с ней
 - [ ] CMake: Синтаксис: Условный оператор
 - [ ] Doxygen: Использование @ в файле конфигурации - что такое и зачем
 - [ ] Doxygen: что такое internal
 - [ ] Markdown: расширение mermaid
-- [ ] CMake: include
+- [x] CMake: include
 - [ ] CMake: fetchContent
 - [ ] CMake: find_package
-- [ ] CMake: target_compile_definitions
+- [x] CMake: target_compile_definitions
 - [ ] CMake: Тонкости включения заголовков
-- [ ] CMake: list TRANSFORM PREPEND
-- [ ] CMake: list APPEND
-- [ ] CMake: дополнить generate_export_header
+- [x] CMake: list TRANSFORM PREPEND
+- [x] CMake: list APPEND
+- [x] CMake: дополнить generate_export_header
 - [ ] CMake: изучить источник https://man.archlinux.org/man/extra/cmake/cmake-variables.7.en для переменных
 - [ ] CMake: include_guard
 - [ ] Архитектура приложений (АП) - начать раздел
@@ -120,7 +120,7 @@
 - [ ] Cpp: std::bind, std::function, lambda-method, template functor, class-functor
 - [ ] ОП: стандарт Changelog
 - [ ] Cmake: install правила установки пакета (https://cmake.org/cmake/help/latest/command/install.html)
-- [ ] Cmake: конфигурирование шаблонного файла
+- [x] Cmake: конфигурирование шаблонного файла
 - [ ] Cmake: импорт и экспорт таргетов https://gitlab.kitware.com/cmake/community/-/wikis/doc/tutorials/Exporting-and-Importing-Targets
 - [ ] Cmake: Кросс-компилирование (https://blog.feabhas.com/2021/07/cmake-part-2-release-and-debug-builds/#Postscript_–_A_Simple_Build_Script)
 - [ ] Cmake: Кросс-компилирование (https://cmake.org/cmake/help/book/mastering-cmake/chapter/Cross%20Compiling%20With%20CMake.html)
@@ -151,6 +151,19 @@
 - [ ] Сокеты Беркли (https://code-live.ru/post/cpp-http-server-over-sockets/)
 - [ ] Сокеты Беркли (https://habr.com/ru/articles/503432/)
 - [ ] Git: merge: Стратегии
+- [ ] Лицензии: копирайт, копилефт, коммерческая - что такое и в чем различие
+- [ ] ЯП: SQL
+- [ ] CMake: install с учетом версии (устанавливаемого пакета)
+- [ ] CMake: 3.21 install presets
+- [ ] CMake: Base: target_include_directories - расписать заклинание с интерфейсами
+- [ ] CMake: modules - переписать вводную часть
+- [ ] CMake: Уточнить команды сборки [тут](Languages/Cmake/ConsoleWorkflow.md#сборка)
+- [ ] IDE: VS Code: tasks.json
+- [ ] IDE: VS Code: launch.json
+- [ ] CMake: Base: project() флаги
+- [ ] CMake: устройство переменных
+- [ ] CMake: build command
+- [ ] CMake: выделить примеры в отдельные файлы
 
 # Factorio
 
