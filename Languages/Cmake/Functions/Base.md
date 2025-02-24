@@ -37,7 +37,7 @@ cmake_minimum_required(VERSION 3.15)
 Синтаксис:
 
 ```cmake
-project(<ProjectName> VERSION <> LANGUAGES CXX ...) # TODO: флаги
+project(<ProjectName> VERSION <> LANGUAGES CXX ...)
 ```
 
 Объявление проекта, его название, которое может отличаться от названия приложения, исходника, папки и т.п.

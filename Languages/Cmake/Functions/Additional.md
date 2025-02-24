@@ -1,13 +1,13 @@
 * [Назад](../Readme.md)
 
 - [Additional Spells](#additional-spells)
-	- [configure\_file](#configure_file)
-	- [file](#file)
-	- [foreach](#foreach)
-	- [list](#list)
-	- [message](#message)
-	- [option()](#option)
-	- [target\_compile\_definitions](#target_compile_definitions)
+  - [configure\_file](#configure_file)
+  - [file](#file)
+  - [foreach](#foreach)
+  - [list](#list)
+  - [message](#message)
+  - [option()](#option)
+  - [target\_compile\_definitions](#target_compile_definitions)
 
 # Additional Spells
 
@@ -21,16 +21,17 @@
 
 ```CMake
 configure_file(
-	inputFile.ext.in
-	output_inputFile.ext
-	[COPYONLY]
+    inputFile.ext.in
+    output_inputFile.ext
 )
 ```
 
 * inputFile.ext.in - название и относительный путь к файлу-шаблону
 * output_inputFile.ext - название и относительный путь к настроенному файлу
 * ext - разрешение файла, в целом может быть любым
-* COPYONLY - указание на то, что файл нужно скопировать без изменений
+
+Чтобы выполнить копирование (и только копирование), без изменений, можно добавить в конец волшебное слово "COPYONLY".
+В таком случае, будет выполнено копирование файла без внутренних изменений.
 
 А как сделать этот файл шаблона? Как CMake поймет, что и как делать?
 
@@ -55,8 +56,8 @@ option(Var_bool OFF)
 set(Var_String "String contains")
 
 configure_file(
-	TestFile.h.in
-	include/TestFile.h
+    TestFile.h.in
+    include/TestFile.h
 )
 ```
 
@@ -82,7 +83,7 @@ file(GLOB SomeFiles src/*.cpp)
 
 ```CMake
 foreach(each ${LIST_VAR})
-	# some staff
+    # some staff
 endforach()
 ```
 
@@ -95,13 +96,16 @@ endforach()
 Синтаксис-копипаста:
 
 ```CMake
-list(TRANSFORM SOME_LIST PREPEND SOME_STRING_VALUE)
 list(APPEND SOME_LIST_2 SOME_VALUE)
+```
+
+```CMake
+list(TRANSFORM SOME_LIST PREPEND SOME_STRING_VALUE)
 ```
 
 * APPEND - Дополнить список значением (в конец)
 * TRANSFORM - Изменить содержимое списка следующим образом:
-	* PREPEND - Добавлением в начало каждого элемента значения
+    * PREPEND - Добавлением в начало каждого элемента значения
 
 
 ## message

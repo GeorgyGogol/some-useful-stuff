@@ -24,7 +24,7 @@
 * Qt
   * [Включение Qt](QtWithCmake/CmakeQt.md)
   * [Компилирование Qt](QtWithCmake/CompileQt.md)
-* [Установка проекта](Install.md)
+* [Команда установки](Commands/Install.md)
 
 ## Примеры
 

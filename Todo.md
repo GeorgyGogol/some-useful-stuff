@@ -91,7 +91,7 @@
 - [ ] CMake: Ревью текста в Readme
 - [ ] CMake: Ревью текста в Modules
 - [x] CMake: Работа через консоль
-- [ ] CMake: Установка и особенности работы
+- [ ] CMake: Установка программы и особенности работы с ней
 - [ ] CMake: Синтаксис: Условный оператор
 - [ ] Doxygen: Использование @ в файле конфигурации - что такое и зачем
 - [ ] Doxygen: что такое internal
@@ -160,6 +160,10 @@
 - [ ] CMake: Уточнить команды сборки [тут](Languages/Cmake/ConsoleWorkflow.md#сборка)
 - [ ] IDE: VS Code: tasks.json
 - [ ] IDE: VS Code: launch.json
+- [ ] CMake: Base: project() флаги
+- [ ] CMake: устройство переменных
+- [ ] CMake: build command
+- [ ] CMake: выделить примеры в отдельные файлы
 
 # Factorio
 
