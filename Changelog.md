@@ -5,6 +5,7 @@
 Навигация по версиям:
 
 - [История изменений](#история-изменений)
+- [Unreleased](#unreleased)
 - [0.4.1](#041)
 - [0.4.0](#040)
 - [0.3.2](#032)
@@ -12,6 +13,17 @@
 - [0.3.0](#030)
 - [0.2.0](#020)
 - [0.1.0](#010)
+
+# Unreleased
+
+* Cmake: install
+* CMake: Работа через консоль
+* CMake: include
+* Наработки по CMake: find_package
+* CMake: target_compile_definitions
+* CMake: list TRANSFORM PREPEND
+* CMake: list APPEND
+* CMake: дополнить generate_export_header
 
 # 0.4.1
 
